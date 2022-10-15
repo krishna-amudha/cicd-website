@@ -1,0 +1,2077 @@
+body {
+	font-family: "proxima-nova" !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,700&display=swap');
+
+.d-h-a-form-placeholder {
+	position: relative;
+}
+
+.form-icon {
+	position: absolute;
+	top: 15%;
+	right: 5%;
+	color: #1F9BD3;
+	cursor: pointer;
+}
+
+.d-h-a-form-text-p-new {
+	display: block;
+	width: 100%;
+	background: #fff;
+	box-sizing: border-box;
+	border-radius: 5px!important;
+	font-weight: 400;
+	font-size: 0.8rem !important;
+	height: calc(2.25rem + 2px);
+	margin-bottom: 0!important;
+	color: #3f4041 !important;
+	border: 0.5px solid #040A1F;
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding: 0.375rem 0.75rem;
+}
+
+.d-h-a-form-text-p-new:focus {
+	box-shadow: none;
+	border: 0;
+}
+
+.d-h-a-form-text-p-new:focus {
+	border: 1px solid #ced4da !important;
+	background-color: #fff !important;
+}
+
+.d-h-a-form-placeholder label {
+	color: #383838 !important;
+	position: absolute;
+	pointer-events: none;
+	left: 10px;
+	top: 10px;
+	transition: 0.2s;
+	font-weight: 400;
+	font-size: 0.8rem !important;
+}
+
+.d-h-a-form-text-p-new:focus~label,
+.d-h-a-form-text-p-new:valid~label {
+	top: -10px;
+	left: 5px;
+	font-size: 0.8rem !important;
+	color: #000;
+	background-color: #fff;
+	padding: 0 5px 0 5px;
+}
+
+.oral-dna-desk {
+	display: block;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.oral-dna-mobile {
+	display: none;
+}
+
+.oral-dna-head-bg {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	filter: drop-shadow(0px 5px 20px rgba(0, 0, 0, 0.15));
+	background: #FFFFFF;
+	padding: 1rem;
+}
+
+.oral-dna-head-bg ul li {
+	list-style: none;
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.oral-dna-head-bg ul li a {
+	list-style: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: normal;
+	text-decoration: none;
+	color: #383838;
+}
+
+.btn-oral:hover {
+	background: #1d2e4c;
+	border-radius: 99rem;
+	font-size: 1rem;
+	padding: 0.7rem 2rem;
+	color: #ffffff !important;
+	border: 1px solid #1d2e4c;
+	
+}
+
+.btn-oral {
+	background: #ffffff;
+	color: #1d2e4c !important;
+	border: 1px solid;
+	border-radius: 99rem;
+	font-size: 1rem;
+	padding: 0.7rem 2rem;
+	font-weight: 500 !important;
+}
+
+.oral-dna-head-bg ul {
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+.oral-dna-logo {
+	height: 70px;
+}
+
+.oral-dna-banner-bg {
+	width: 100%;
+	position: relative;
+}
+
+.oral-dna-banner-img {
+	width: 100%;
+	object-fit: contain;
+}
+
+.oral-dna-banner-bg-iner {
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	-ms-transform: translate(10%, -50%);
+	transform: translate(10%, -50%);
+}
+
+#spin {
+    text-transform: uppercase;
+    font-size: 3rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    /* font-size: x-large; */
+    
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+    /* color: #35c1ed; */
+}
+
+.oral-dna-banner-bg-iner h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 3.8rem;
+	margin-bottom: 0.5rem;
+	color: #1D2E4C;
+}
+
+.oral-dna-banner-bg-iner p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	padding-bottom: 1.5rem;
+	color: #1D2E4C;
+}
+
+.oral-dna-banner-btn {
+	background: #1D2E4C;
+	border-radius: 42.0387px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.1rem;
+	line-height: normal;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 0.6rem 2rem;
+	border: 1px solid #1D2E4C;
+}
+
+.oral-dna-banner-btn-secound {
+	background: #1D2E4C;
+	border-radius: 42.0387px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.1rem;
+	line-height: normal;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 0.8rem 2.5rem;
+	border: 1px solid #1D2E4C;
+}
+
+.oral-dna-banner-btn-secound:hover {
+	background: transparent;
+	border-radius: 42.0387px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.1rem;
+	line-height: normal;
+	text-decoration: none;
+	color: #1D2E4C;
+	padding: 0.8rem 2.5rem;
+	border: 1px solid #1D2E4C;
+}
+
+.oral-dna-banner-btn:hover {
+	background: transparent;
+	border-radius: 42.0387px;
+	font-weight: 500;
+	font-size: 1.1rem;
+	text-decoration: none;
+	color: #1D2E4C;
+	border: 1px solid #1D2E4C;
+	;
+}
+
+.oral-dna-work-it-a {
+	background: #FFFFFF;
+	box-shadow: 0px 10px 30px rgba(2, 91, 156, 0.1);
+	border-radius: 10px;
+	padding: 0rem 1rem;
+	padding-top: 1rem;
+	height: 100%;
+	text-align: center;
+}
+
+.oral-dna-work-it {
+	background: #FFFFFF;
+	box-shadow: 0px 10px 30px rgba(2, 91, 156, 0.1);
+	border-radius: 10px;
+	padding: 0rem 1rem;
+	padding-bottom: 1rem;
+	text-align: center;
+	height: 100%;
+}
+
+.add-img-bottom-a {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.oral-dna-work-it-a h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	text-align: center;
+	color: #383838;
+	margin-bottom: 0.5rem;
+}
+
+.oral-dna-work-it-a p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.9rem;
+	line-height: 1.5;
+	text-align: center;
+	margin-bottom: 0.5rem;
+	color: #383838;
+}
+
+.oral-dna-work-it h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	text-align: center;
+	color: #383838;
+	margin-bottom: 0.5rem;
+}
+
+.oral-dna-work-it p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.9rem;
+	line-height: 1.5;
+	text-align: center;
+	margin-bottom: 0.5rem;
+	color: #383838;
+}
+
+.oral-dna-head-main {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2rem;
+	line-height: 1.5;
+	text-align: center;
+	color: #383838;
+}
+
+.oral-dna-head-main-mm {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	text-align: center;
+	color: #383838;
+}
+
+.oral-dna-head-main-a {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	text-align: left;
+	color: #383838;
+}
+
+.oral-dna-head-main-sub {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.1rem;
+	line-height: normal;
+	color: #383838;
+}
+
+.oral-dna-head-main-bg {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.oral-dna-head-main-bg-a {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.oral-dna-head-main-bg-a p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: normal;
+	margin-top: 1rem;
+	color: #383838;
+}
+
+.oral-dna-head-main-bg-c {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.oral-dna-head-main-bg-c p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: normal;
+	margin-top: 1rem;
+	color: #383838;
+}
+
+.oral-dna-head-main-bg-c-p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	text-align: right;
+	line-height: normal;
+	margin-top: 1rem;
+	color: #383838;
+}
+
+.oral-dna-fact-box {
+	background: #FFFFFF;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+	padding: 1rem;
+	position: relative;
+	padding-top: 18%;
+	height: 100%;
+}
+
+.oral-dna-fact-box h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	text-align: center;
+	color: #383838;
+	margin-bottom: 0.5rem;
+}
+
+.oral-dna-fact-box p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.9rem;
+	line-height: 1.5;
+	text-align: justify;
+	margin-bottom: 0.5rem;
+	color: #383838;
+}
+
+.oral-dna-fact-img {
+	position: absolute;
+	top: -10%;
+	left: 50%;
+	-ms-transform: translate(-50%, -10%);
+	transform: translate(-50%, -10%);
+}
+
+.oral-dna-fact-main-head-bg {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.oral-dna-head-main-bg p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 1.5;
+	margin-top: 0.5rem;
+	color: #383838;
+}
+
+.oral-dna-footer-header a {
+	color: #025B9C;
+	text-decoration: underline;
+	font-weight: normal;
+	font-size: 1rem;
+}
+
+.prc-chec-page-head a {
+	text-decoration: none;
+	text-decoration-line: underline;
+	color: #007DD1;
+	border-radius: 4px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	background-color: transparent;
+	margin-left: 0.5rem;
+	cursor: pointer;
+	padding: 0.3rem 0.4rem;
+}
+
+.prc-chec-page-head-aa {
+	text-decoration: none;
+	background: #007DD1 !important;
+	border-radius: 4px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	margin-left: 0.5rem;
+	text-decoration: none !important;
+	cursor: pointer;
+	padding: 0.3rem 0.4rem;
+	color: #FFFFFF !important;
+}
+
+.oral-dna-sub-banner {
+	background-image: url(../img/oral-dna-sub-banner.png);
+	padding: 2% 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.oral-dna-sub-banner h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: normal;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+.oral-dna-sub-banner ul li {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1rem;
+	line-height: 1.5;
+	margin-bottom: 1rem;
+	color: #FFFFFF;
+}
+
+.oral-dna-sub-banner-img {
+	width: 100%;
+}
+
+.oral-dna-sub-banner-a {
+	background-image: url(../img/Did-you-know-bg.png);
+}
+
+.oral-dna-footer-ban {
+	width: 100%;
+}
+
+.oral-dna-footer-heade {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.9rem;
+	line-height: normal;
+	text-align: center;
+	color: #383838;
+}
+
+.prc-chec-page-bg {
+	background: #FFFFFF;
+	box-shadow: 0px 10px 30px rgb(0 0 0 / 15%);
+	border-radius: 2px;
+	padding: 2rem !important;
+	position: relative;
+}
+
+.prc-chec-page-bg-mm {
+	background: #FFFFFF;
+	box-shadow: 0px 10px 30px rgb(0 0 0 / 15%);
+	border-radius: 2px;
+	padding: 2rem !important;
+	position: relative;
+	border-top: 8px solid #007DD1;
+	margin-top: 12%;
+}
+
+.oral-dna-save-btn {
+	background: #52B2F0;
+	border-radius: 1.71176px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 8.55879px;
+	line-height: 10px;
+	padding: 3px 5px;
+	text-align: center;
+	color: #FFFFFF !important;
+}
+
+.d-h-a-form-text-p {
+	background: #fff;
+	box-sizing: border-box;
+	border-radius: 5px!important;
+	font-weight: 400;
+	font-size: 0.8em !important;
+	height: calc(2.25rem + 2px);
+	margin-bottom: 0!important;
+	color: #3f4041 !important;
+	border: 0.5px solid #040A1F;
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding: 0.375rem 0.75rem;
+}
+
+.prc-chec-page-head {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px !important;
+	line-height: normal;
+	margin-bottom: 0;
+	color: #000000 !important;
+	margin-bottom: 0.5rem;
+}
+
+.pay-com-detail-sub-head {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 22px;
+	margin-bottom: 0.5rem;
+	text-align: center;
+	color: #000000;
+}
+
+.pay-com-detail-text {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px !important;
+	line-height: 17px;
+	margin-bottom: 0.5rem;
+	margin-top: 1rem;
+	text-align: center;
+	color: #000000;
+	opacity: 0.8;
+}
+
+.d-en-textbox {
+	box-sizing: border-box;
+	border-radius: 5px !important;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	padding-block-start: 0;
+	padding-inline-start: 0;
+	padding-inline-end: 0;
+	padding-block-end: 0;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+	border: 0.5px solid #040A1F;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.form-group {
+	background: #fff;
+	border-radius: 3px;
+	margin-bottom: 1rem !important;
+}
+
+.d-en-textbox-bg {
+	width: auto !important;
+	margin-bottom: 0;
+	font-size: 0.6rem !important;
+	padding-right: 0.5rem;
+	padding-left: 0.2rem;
+	font-weight: 600;
+}
+
+.d-en-col {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.d-en-textbox-text {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 0.7rem !important;
+	line-height: normal;
+	margin-bottom: 0;
+	color: #040A1F;
+	padding-left: 0.5rem;
+}
+
+.prc-chec-page-head .login_button {
+	margin-top: 0.3rem;
+}
+
+.d-en-textbox-form {
+	border: 0 !important;
+	border-left: 0.25px solid #040A1F !important;
+	background-color: transparent!important;
+	margin-bottom: 0rem;
+	font-size: 1rem;
+	color: #9B9DA6;
+	padding: 0;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	line-height: normal!important;
+	height: 24px;
+	min-height: 24px !important;
+	margin-bottom: 4px;
+	box-shadow: none!important;
+	outline: 0;
+	background: transparent!important;
+}
+
+.prc-detail-bg-cont {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.prc-detail-bg-cont-head {
+	font-style: normal;
+	font-weight: normal !important;
+	font-size: 16px !important;
+	line-height: 19px;
+	color: #000000;
+}
+
+.prc-detail-bg-cont-head {
+	font-style: normal;
+	font-weight: normal !important;
+	font-size: 16px !important;
+	line-height: 19px;
+	color: #000000;
+}
+
+.prc-detail-bg-cont-text {
+	font-style: normal;
+	font-weight: 300 !important;
+	font-size: 16px !important;
+	line-height: 19px;
+	color: #000000;
+}
+
+.prc-detail-bg-cont-head-a {
+	font-style: normal;
+	font-weight: bold !important;
+	font-size: 18px;
+	line-height: 18px !important;
+	color: #000000;
+}
+
+.prc-detail-bg-cont-head-d {
+	font-style: normal;
+	font-weight: bold !important;
+	font-size: 25px !important;
+	line-height: 25px;
+	text-align: left;
+	color: #000000;
+}
+
+.prc-detail-bg-cont-head-mm {
+	font-style: normal;
+	font-weight: bold !important;
+	font-size: 38.3734px;
+	line-height: 25px;
+	text-align: left;
+	color: #000000;
+}
+
+.prc-detail-bg-cont-head-b {
+	font-style: normal;
+	font-weight: bold !important;
+	font-size: 25px !important;
+	line-height: 25px;
+	text-align: right;
+	color: #000000;
+}
+
+.pay-com-Account-Reports-btn {
+	border: 0.552936px solid #007DD1;
+	box-sizing: border-box;
+	border-radius: 4.56566px;
+	background-color: #fff;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.9rem;
+	padding: 0.8rem 1rem;
+	margin: 1rem;
+	line-height: normal;
+	text-align: center;
+	color: #007DD1;
+}
+
+.pay-com-detail-btn {
+	background: linear-gradient(90deg, #21D65E 18.19%, #07B843 100%);
+	border-radius: 5px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.2rem;
+	line-height: 20px;
+	padding: 1rem;
+	text-align: center;
+	color: #FFFFFF;
+	border: none;
+	cursor: pointer;
+}
+
+.pay-com-detail-btn:hover {
+	background: linear-gradient(90deg, #21D65E 18.19%, #07B843 100%);
+	border-radius: 5px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.2rem;
+	line-height: 20px;
+	padding: 1rem;
+	text-align: center;
+	color: #FFFFFF;
+	border: none;
+	cursor: pointer;
+}
+
+.pay-com-detail-text {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px !important;
+	line-height: 17px;
+	margin-bottom: 0.5rem;
+	margin-top: 1rem;
+	text-align: center;
+	color: #000000;
+	opacity: 0.8;
+}
+
+.pay-com-detail-text-a {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px !important;
+	line-height: 14px;
+	text-align: center;
+	margin-bottom: 0.5rem;
+	color: #000000;
+	opacity: 0.8;
+}
+
+.pay-com-detail-img {
+	width: 20px;
+	height: 20px;
+}
+
+.pay-com-detail-sub-head {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 22px;
+	margin-bottom: 0.5rem;
+	text-align: center;
+	opacity: 0.8;
+	color: #000000;
+}
+
+.pay-com-detail-postion {
+	position: relative;
+}
+
+.pay-com-detail-postion-icon {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+}
+
+.d-pric-check-out-bg {
+	background: #F0F0F0;
+	border: 0.5px solid #8D8D8D;
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding: 1rem;
+}
+
+.pay-com-detail-img {
+	width: 100px;
+	height: 100px;
+}
+
+.price-che-lab {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px !important;
+	line-height: 14px;
+	text-decoration-line: underline;
+	color: #000000;
+	opacity: 0.8;
+}
+
+.price-che-lab-a {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px !important;
+	line-height: 14px;
+	text-decoration-line: none;
+	color: #000000;
+	opacity: 0.8;
+}
+
+.price-hr {
+	opacity: 0.5;
+	background-color: rgba(0, 9, 44, 0.5);
+}
+
+.pay-com-detail-text-fa {
+	color: #000000 !important;
+	background-color: transparent;
+	font-size: 14px !important;
+	background: transparent!important;
+	padding: 0!important;
+	border-radius: 0!important;
+	box-shadow: none!important;
+}
+
+.price-model-bg {
+	background-color: #12C06A;
+	height: 50vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.price-model-text {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px !important;
+	line-height: 24px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.price-model-text-img {
+	width: 100%;
+	height: 200px;
+	object-fit: contain;
+}
+
+.pay-com-detail-img-a {
+	position: absolute;
+	top: -5%;
+	left: 50%;
+	-ms-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+}
+
+.odna-check-bg {
+	box-sizing: border-box;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.odna-check-bg-a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.odna-check-bg-add-btn {
+	background: #007DD1;
+	border-radius: 4.56566px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.9rem;
+	line-height: normal;
+	text-align: center;
+	font-weight: 500;
+	padding: 0.6rem 1rem;
+	color: #FFFFFF !important;
+	cursor: pointer;
+}
+
+.odna-check-bg-added-btn {
+	background: linear-gradient( 90deg, #21D65E 18.19%, #07B843 100%);
+	border-radius: 4.56566px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.9rem;
+	line-height: normal;
+	text-align: center;
+	font-weight: 500;
+	padding: 0.6rem 1rem;
+	color: #FFFFFF !important;
+	cursor: pointer;
+}
+
+.odna-check-bg-img {
+	width: 100%;
+	height: 10vh;
+	object-fit: contain;
+}
+
+.odna-check-bg-cc {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: normal;
+	margin-bottom: 0;
+	color: #212121;
+}
+
+.odna-check-bg-a p {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.8rem;
+	line-height: 17px;
+	margin-bottom: 0;
+	color: #383838;
+}
+
+.odna-check-bg-app {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.2rem;
+	line-height: normal;
+	margin-bottom: 0.5rem;
+	color: #383838;
+}
+
+.active-check {
+	background: #D7F2FC !important;
+	border: 2px solid #1DB6EF !important;
+}
+
+.oral-dna-apply-btn {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1rem;
+	line-height: normal;
+	text-align: center;
+	color: #007DD1;
+}
+
+.oral-dna-apply-btn-bg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.prc-chec-page-sub-bg {
+	border: 0.913133px solid #C4C4C4;
+	box-sizing: border-box;
+	border-radius: 2.7394px;
+	padding: 1rem;
+}
+
+.odna-elipse-bg {
+	position: relative;
+	margin-bottom: 120px !important;
+}
+
+.odna-elipse {
+	position: absolute;
+	top: -15%;
+	right: 5%;
+}
+
+.odna-elipse-a {
+	position: absolute;
+	top: -15%;
+	left: 5%;
+}
+
+.odna-elipse-b {
+	position: absolute;
+	bottom: -10%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.error {
+	color: red;
+	font-size: 13px;
+}
+
+.alert {
+	padding: 0.3rem 1.25rem !important;
+	font-size: 14px;
+	width: 100%;
+	overflow-wrap: break-word;
+}
+
+.mobilecode {
+	padding: 0.2rem 0.2rem;
+}
+
+.unactive-check {
+	border: 2px solid #1DB6EF !important;
+}
+
+.odna-check-bg-a {
+	margin: 15px;
+}
+
+.d-p-modal-content-case .form-group p {
+	text-align: center;
+}
+
+.d-oral-dna-user-name {
+	font-style: normal;
+	font-weight: 300;
+	line-height: 19px;
+	text-align: right;
+	color: #000000;
+}
+
+.odna-checkbox {
+	float: left;
+	width: 15px;
+}
+
+.odna-addon-text {
+	width: 100%;
+	text-align: left;
+	margin: 0 0 0 15px;
+}
+
+.odna-check-bg-cc {
+	margin: 0 15px 0 0;
+}
+
+.addonClass {
+	height: auto !important;
+}
+
+.addonClass:focus {
+	border-color: #FFFFFF;
+	box-shadow: 0 0 0 0 rgb(0 123 255 / 25%);
+}
+
+.odna-elipse-bg {
+	position: relative;
+}
+
+.odna-elipse {
+	position: absolute;
+	top: -15%;
+	right: 5%;
+}
+
+.odna-elipse-a {
+	position: absolute;
+	top: -15%;
+	left: 5%;
+}
+
+.odna-elipse-b {
+	position: absolute;
+	bottom: -10%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.odan-image-top-down {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.oral-accor .card-header .title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1rem;
+	line-height: 18px;
+	text-align: left;
+	color: #000000;
+}
+
+.oral-accor .card-header .accicon {
+	float: right;
+	font-size: 20px;
+	width: 1.2em;
+}
+
+.prc-chec-page-bg .oral-accor .card-header {
+	text-align: left !important;
+	cursor: pointer;
+	border-bottom: none;
+	margin: 0.5rem;
+	background: #FFFFFF;
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+	border-radius: 5px;
+}
+
+.oral-accor .card {
+	border: 1px solid #fff;
+}
+
+.oral-accor .card-body {
+	border-top: 0;
+	text-align: left !important;
+}
+
+.oral-accor .card-header:not(.collapsed) .rotate-icon {
+	transform: rotate(180deg);
+}
+
+.modal-header .modal-title {
+	margin: 0px auto;
+	width: 100%;
+}
+
+.modal-header span {
+	color: #FFFFFF;
+}
+
+.payment-bg {
+	border: 0.5px solid #000957;
+	background-color: #ECEFFA;
+	border-radius: 15px;
+}
+
+.card-border {
+	top: 456px;
+	left: 825px;
+	width: 265px;
+	height: 139px;
+	background: #F9F9F9 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 6px #00000029;
+	border: 1px solid #D4D4D4;
+	border-radius: 6px;
+	opacity: 1;
+	padding: 12px;
+}
+
+.payment-text {
+	font-size: 12px;
+	font-weight: 600;
+	font-family: proxima_novalight;
+	color: #000957;
+}
+
+.d-p-pop-up-box {
+	width: 100%;
+	display: inline-block;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 0.25px solid #b5b5b5;
+	border-radius: 24px;
+	opacity: 1;
+	margin: 0.5rem 1rem;
+	padding: 1rem;
+}
+
+.chiller_cb {
+	position: relative;
+	height: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-bottom: 0.6rem;
+}
+
+.chiller_cb label {
+	padding-left: 0.5rem;
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+	letter-spacing: 0px;
+	color: #141414;
+	opacity: 1;
+	font-size: 1rem;
+	font-weight: 400;
+	margin-bottom: 0rem;
+}
+
+.chiller_cb span {
+	/* display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 1px solid #1C3FC6; */
+	position: absolute;
+	left: 0;
+	transition: all 0.2s;
+	z-index: 1;
+	box-sizing: content-box;
+}
+
+.chiller_cb span:before {
+	transform: rotate(-55deg);
+	top: 0.6rem;
+	left: 0.25rem;
+}
+
+.chiller_cb span:before,
+.chiller_cb span:after {
+	content: "";
+	display: inline-block;
+	background: #fff;
+	width: 0;
+	height: 0.2rem;
+	position: absolute;
+	transform-origin: 0% 0%;
+}
+
+.chiller_cb span:after {
+	transform: rotate(35deg);
+	bottom: 0.35rem;
+	left: 0.2rem;
+}
+
+.d-p-model-body-head {
+	text-align: left;
+	font-size: 0.9rem;
+	font-weight: 600;
+	letter-spacing: 0px;
+	color: #141414;
+	opacity: 1;
+	margin-bottom: 0.5rem;
+}
+
+.chiller_cb input[type=text] {
+	padding-left: 0rem;
+	position: relative;
+	margin-left: 0.5rem;
+	border: 0;
+	z-index: 2;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #d4d4d4;
+	cursor: pointer;
+	letter-spacing: 0px;
+	color: #141414;
+	opacity: 1;
+	font-size: 0.8rem;
+	font-weight: 400;
+	margin-bottom: 0;
+	width: 100%;
+	outline: none;
+}
+
+.d-p-btn-next {
+	background: linear-gradient( 270deg, #026AAF -7.54%, #0099D2 93.06%);
+	width: 150px;
+	border-radius: 5px;
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: normal;
+	text-align: center;
+	border: 1px solid #026AAF;
+	color: #FFFFFF;
+	padding: 0.8rem;
+}
+
+.modal-footer {
+	border: none !important;
+}
+
+.odna-check-bg-app a,
+.odna-check-bg-app a:hover {
+	border: none !important;
+	text-decoration: none !important;
+}
+
+.odna-check-bg-app span {
+	font-size: 9.41467px;
+	line-height: 11px;
+	color: #212121;
+	opacity: 0.8;
+	font-weight: normal;
+}
+
+.odna-addon-text ul {
+	float: left;
+	width: 100%;
+	margin: 5px 0 0 0;
+	padding: 0 0 0 15px;
+	font-size: 9px;
+	list-style: disc;
+}
+
+.odna-addon-text ul li {
+	line-height: 1.5;
+	font-size: 9px;
+	color: #212121;
+	font-weight: normal;
+}
+
+.odna-check-bg-a {
+	position: relative;
+}
+
+.odna-check-bg-a a.tooltip_box {
+	position: absolute;
+	right: -4%;
+	top: -11%;
+}
+
+.tooltip-inner {
+	max-width: 350px !important;
+	text-align: left!important;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.subscribe_save:focus {
+	box-shadow: none !important;
+}
+
+.logintop_text {
+	margin: 0 0 0px 0;
+}
+
+.prc-detail-bg-cont-head-mm span {
+	font-style: normal;
+	font-weight: bold !important;
+	font-size: 20px;
+	line-height: 25px;
+	text-align: left;
+	color: #000000;
+}
+
+.prc-detail-bg-cont-head-d span {
+	background: #C1C0FE;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 0.8rem;
+	line-height: normal;
+	padding: 3px 5px;
+	text-align: center;
+	margin-right: 0.5rem;
+	color: #211DE3;
+}
+
+.d-p-c-tab-btn-3 {
+	border: 0.5px solid #3f4041;
+	border-radius: 5px;
+	font-weight: normal;
+	text-align: center;
+	letter-spacing: 0px;
+	opacity: 1;
+	margin: 2% 0 2% 0;
+	font-size: 15px;
+}
+
+.back_button_class {
+	color: #007DD1 !important;
+	cursor: pointer;
+	border: 1px solid #007DD1;
+	padding: 0.3rem 1rem;
+	background: #FFFFFF;
+}
+
+.input-container {
+	width: 250px;
+	border: 1px solid #a9a9a9;
+	display: inline-block;
+}
+
+.input-container .input-field:focus,
+.input-container .input-field:active {
+	outline: none;
+}
+
+.input-container .input-field {
+	width: 80%;
+	border: none;
+	display: unset;
+}
+
+.input-container .input-button {
+	float: right;
+	width: 20%;
+	border-radius: 0;
+	background: #007DD1;
+	border: none;
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.input-container .input-button:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.d-p-modal-content-case {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	width: 100%;
+	pointer-events: auto;
+	background-color: #fff;
+	background-clip: padding-box;
+	box-shadow: hsl(0, 0%, 80%) 0 5px 16px;
+	border: 0px solid rgba(0, 0, 0, .2);
+	border-radius: .3rem;
+	outline: 0;
+}
+
+.d-p-modal-content-case .modal-header {
+	background: #026BB0;
+	color: #fff;
+	position: relative;
+}
+
+.d-p-modal-content-case .modal-header .modal-title {
+	text-align: center;
+	font-size: 1rem;
+	font-weight: 500px;
+	letter-spacing: 0px;
+	opacity: 1;
+	color: #FFFFFF;
+}
+
+.d-p-modal-content-case .modal-header .close {
+	position: absolute;
+	right: 1% !important;
+	top: 18% !important;
+	opacity: 1;
+	outline: 0 !important;
+	border: 0 !important;
+	width: auto !important;
+	height: auto !important;
+	background-color: transparent !important;
+}
+
+.d-p-modal-content-case .modal-footer {
+	border-top: 0px solid #E9ECEF;
+}
+
+.d-case-app-his-pop {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-bottom: 1rem;
+}
+
+.d-case-app-his-pop-a {
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 0.5rem;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.oral-icon-login-color {
+	color: #0092CC;
+	font-size: 0.9rem;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.oral-icon-login-color:hove {
+	color: #0092CC;
+	font-size: 0.9rem;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.oral-icon-login-bg {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.oral-height-set {
+	margin-top: 50px;
+}
+
+.conset_frm_content #div1 ul li ul li {
+	list-style: none !important;
+}
+
+#loading {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	display: none;
+	opacity: 0.7;
+	background-color: #FFF;
+	z-index: 999999;
+	text-align: center;
+}
+
+#loading-image {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 100;
+	margin: auto;
+}
+
+.d-p-modal-content-case .form-group .prc-chec-page-head {
+	text-align: center;
+	text-align: center !important;
+}
+
+.d-p-modal-content-case .form-group p {
+	text-align: left !important;
+	margin-bottom: 0.5rem;
+}
+
+.package_lists label {
+	margin: 0px !important;
+}
+
+@media (min-width: 992px) {
+	.oral-dna-container-bg {
+		max-width: 1330px;
+	}
+}
+
+@media (max-width: 768px) {
+	.alert {
+		padding: 0.3rem 1.25rem !important;
+		font-size: 14px;
+		width: 100%;
+		margin-top: 3rem;
+		margin-bottom: 0.5rem;
+		display: block;
+		overflow-wrap: break-word;
+	}
+	.oral-dna-head-bg ul li b {
+		display: none;
+	}
+	.oral-dna-sub-banner h2 {
+		margin-top: 1rem;
+		text-align: center;
+	}
+	.pay-com-detail-btn {
+		background: linear-gradient( 90deg, #21D65E 18.19%, #07B843 100%);
+		border-radius: 5px;
+		font-style: normal;
+		font-weight: 600;
+		display: inline;
+		font-size: 1rem;
+		margin-bottom: 1rem;
+		line-height: 10px;
+		padding: 0.5rem 2rem;
+		text-align: center;
+		color: #FFFFFF;
+		border: none;
+		cursor: pointer;
+	}
+	.oral-dna-desk {
+		display: none;
+	}
+	.d-p-btn-next {
+		background: linear-gradient( 270deg, #026AAF -7.54%, #0099D2 93.06%);
+		width: 150px;
+		border-radius: 5px;
+		font-weight: 600;
+		font-size: 0.9rem;
+		line-height: normal;
+		text-align: center;
+		border: 1px solid #026AAF;
+		color: #FFFFFF;
+		padding: 0.4rem;
+	}
+	.oral-dna-fact-main-head-bg {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+	}
+	.oral-dna-fact-main-head-bg img {
+		margin-bottom: 1rem !important;
+	}
+	.oral-dna-mobile {
+		display: block;
+		position: relative;
+		margin-bottom: 0.5rem;
+		left: 50%;
+		transform: translate(-50%);
+	}
+	.oral-dna-head-bg ul li a {
+		font-weight: 300;
+		font-size: 0.8rem;
+		color: #fff;
+	}
+	.prc-detail-bg-cont-head-d span {
+		background: #C1C0FE;
+		border-radius: 5px;
+		font-weight: bold;
+		font-size: 0.6rem;
+		line-height: normal;
+		padding: 2px 3px;
+		text-align: center;
+		margin-right: 0.5rem;
+		color: #211DE3;
+	}
+	.oral-dna-head-bg {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		align-items: center;
+		filter: drop-shadow(0px 5px 20px rgba(0, 0, 0, 0.15));
+		background: #FFFFFF;
+		padding: 0rem;
+	}
+	.oral-dna-banner-bg-iner {
+		position: absolute;
+		top: 10%;
+		left: 7%;
+		right: 7%;
+		-ms-transform: translate( 0%, -10%);
+		transform: translate(0%, -10%);
+		text-align: center;
+	}
+	.odna-check-bg-cc {
+		margin: 0 0 0 0;
+	}
+	.oral-dna-head-bg .oral-dna-logo {
+		padding-top: 1rem;
+		margin-bottom: 1rem;
+	}
+	.oral-dna-head-bg ul {
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-wrap: nowrap;
+		background: #1D2E4C;
+		width: 100%;
+		justify-content: center;
+	}
+	.oral-dna-head-bg ul li .btn-oral,
+	.oral-dna-head-bg ul li a b {
+		display: none;
+	}
+	.oral-dna-fact-box p {
+		text-align: justify;
+	}
+	.oral-dna-banner-bg-iner h2 {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 27px;
+		line-height: normal;
+		margin-bottom: 0.5rem;
+		color: #1D2E4C;
+	}
+	.oral-dna-banner-bg-iner p {
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: normal;
+		color: #1D2E4C;
+		padding-bottom: 0.5rem;
+	}
+	.oral-dna-banner-btn {
+		background: #1D2E4C;
+		border-radius: 42.0387px;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 1rem;
+		line-height: normal;
+		text-decoration: none;
+		color: #FFFFFF;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		padding: 0.6rem 1.5rem;
+	}
+	.oral-dna-banner-btn:hover {
+		background: #1D2E4C;
+		border-radius: 42.0387px;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 1rem;
+		line-height: normal;
+		text-decoration: none;
+		color: #FFFFFF;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		padding: 0.6rem 1.5rem;
+	}
+	.pay-com-detail-img-a {
+		position: absolute;
+		top: -5%;
+		left: 50%;
+		-ms-transform: translate(-50%, 50%);
+		transform: translate(-50%, 50%);
+	}
+	.oral-dna-head-main-bg-a {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+	.oral-dna-head-main-bg-c {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+	.oral-dna-head-main {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 1.5rem;
+		margin-top: 1rem;
+		line-height: 1.5;
+		text-align: center;
+		color: #383838;
+	}
+	.oral-height-set {
+		margin-top: 30px;
+	}
+	.odna-elipse-a {
+		display: none;
+	}
+	.odna-elipse-b {
+		display: none;
+	}
+	.odna-elipse {
+		display: none;
+	}
+	.add-img-bottom-a {
+		position: static;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.odna-elipse-bg {
+		position: relative;
+		margin-bottom: 50px !important;
+	}
+	.oral-dna-sub-banner ul li {
+		font-style: normal;
+		font-weight: 300;
+		font-size: 0.8rem;
+		line-height: 1.5;
+		margin-bottom: 1rem;
+		color: #FFFFFF;
+		text-align: left;
+	}
+	.oral-dna-head-main-sub {
+		font-style: normal;
+		font-weight: 600;
+		font-size: 1.1rem;
+		line-height: normal;
+		color: #383838;
+		text-align: center;
+	}
+	.oral-dna-head-main-bg-c-p {
+		text-align: center;
+	}
+	.odna-check-bg-mobile {
+		padding: 0 !important;
+		justify-content: space-between !important;
+	}
+	.oral-dna-head-main-bg-a p {
+		font-style: normal;
+		font-weight: normal;
+		font-size: 1rem;
+		line-height: normal;
+		margin-top: 1rem;
+		color: #383838;
+		text-align: center;
+	}
+	.odna-check-bg {
+		box-sizing: border-box;
+		border-radius: 5px;
+		display: flex;
+		padding: 0.5rem;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 0.5rem;
+	}
+	.prc-detail-bg-cont-head-mm {
+		font-style: normal;
+		font-weight: bold !important;
+		font-size: 24px;
+		line-height: 25px;
+		text-align: left;
+		color: #000000;
+		margin-top: 1rem;
+	}
+	.oral-dna-head-main-bg p {
+		font-style: normal;
+		font-weight: normal;
+		font-size: 0.8rem;
+		line-height: 1.5;
+		margin-top: 0.5rem;
+		color: #383838;
+		text-align: center;
+	}
+	.prc-chec-page-bg {
+		background: #FFFFFF;
+		box-shadow: 0px 10px 30px rgb(0 0 0 / 15%);
+		border-radius: 10px;
+		padding: 0.8rem !important;
+		position: relative;
+	}
+	.prc-detail-bg-cont-head-d {
+		font-size: 16px !important;
+		line-height: normal;
+	}
+	.prc-chec-page-head {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px !important;
+		line-height: normal;
+		margin-bottom: 0;
+		color: #000000 !important;
+		margin-bottom: 0.5rem;
+	}
+	.prc-chec-page-head a {
+		text-decoration: none;
+		text-decoration-line: underline;
+		color: #007DD1;
+		border-radius: 4px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 19px;
+		background-color: transparent;
+		margin-left: 0.5rem;
+		cursor: pointer;
+		padding: 0.2rem 0.3rem;
+	}
+	.odna-addon-text {
+		width: 100%;
+		text-align: left;
+		margin: 0 0 0 7px;
+	}
+	.prc-chec-page-head .login_button {
+		font-size: 0.75rem;
+		font-weight: normal;
+		margin-top: 0.3rem;
+	}
+	.prc-chec-page-bg-mm {
+		padding: 0.8rem !important;
+	}
+	.d-p-modal-content-case #teledentistry_consent_terms_and_conditions {
+		max-height: 85vh !important;
+		min-height: auto !important;
+		overflow: auto;
+	}
+	.d-p-c-height {
+		height: 20vh !important;
+		padding: 20px;
+		overflow-y: auto;
+		background-color: #f9f9f9;
+	}
+	#termsAndConditions .d-p-modal-content-case .modal-body {
+		height: 70vh !important;
+		width: 100%;
+		overflow-wrap: break-word;
+	}
+	.odna-check-bg-app {
+		font-style: normal;
+		font-weight: 600;
+		font-size: 0.7rem;
+		line-height: normal;
+		margin-bottom: 0.5rem;
+		color: #383838;
+		text-align: left;
+	}
+	.odna-check-bg-a {
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+	.odna-check-bg-a {
+		margin: 0.1rem;
+	}
+	.input-container .input-field {
+		width: 70%;
+		border: none;
+		display: unset;
+	}
+	.oral-accor .card-header .title {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 0.8rem;
+		line-height: 18px;
+		text-align: left;
+		color: #000000;
+	}
+	.odna-check-bg-cc {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 1.1rem;
+		line-height: normal;
+		margin-bottom: 0;
+		color: #212121;
+	}
+	.input-container .input-button {
+		float: right;
+		width: 30%;
+		border-radius: 0;
+		background: #007DD1;
+		border: none;
+		color: #fff;
+		font-size: 13px;
+		font-weight: bold;
+		cursor: pointer;
+	}
+	.input-container .input-field:focus {
+		box-shadow: none;
+		border: 0;
+	}
+	.input-container {
+		width: 100%;
+		border: 1px solid #a9a9a9;
+	}
+	.oral-accor .card-body {
+		border-top: 0;
+		text-align: left !important;
+		padding: 0.5rem;
+	}
+	.oral-dna-work-it {
+		box-shadow: none;
+		padding: 1rem;
+	}
+	.card-border {
+		top: 456px;
+		left: 825px;
+		width: 100%;
+		height: 139px;
+		background: #F9F9F9 0% 0% no-repeat padding-box;
+		box-shadow: 0px 3px 6px #00000029;
+		border: 1px solid #D4D4D4;
+		border-radius: 6px;
+		opacity: 1;
+		padding: 12px;
+	}
+	.oral-dna-work-it-a {
+		box-shadow: none;
+		padding: 1rem;
+	}
+	.oral-dna-head-bg ul li {
+		list-style: none;
+		margin-right: 0.3rem;
+		margin-left: 0.3rem;
+		margin-top: 0.3rem;
+		margin-bottom: 0.3rem;
+	}
+	.card-body .userName {
+		margin-bottom: 10%;
+	}
+}
+
+.ul-list li {
+	list-style: disc;
+	margin-bottom: 3px;
+}
+
+.bg-color {
+	background-color: #ffffff;
+	padding-top: 80px;
+	border-top: 0.5px solid #eee;
+}
+
+.footer-list {
+	list-style: none;
+	padding-inline-start: 0px;
+}
+
+.footer-list li {
+	margin-bottom: 10px;
+}
+
+.list-inline-item img {
+	width: 26px;
+}
+
+.list-inline-item a {
+	color: #1d2e4c;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.footer-border {
+	background-color: #1d2e4c;
+	height: 2px;
+	width: 55px;
+	margin-top: -7px;
+	margin-bottom: 20px;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+
+#spin:after {
+	content:"Diabetes";
+	animation: spin 25s linear infinite;
+  }
+  @keyframes spin {
+	0% { content:"Diabetes";}
+	15% { content:"Stroke";}
+	30% { content:"Alzheimers";}
+	45% { content:"Heart Disease";}
+	60% { content:"Cavities";}
+	75% { content: "Bad Breath"; }
+	90% { content: "Cancer"; }
+	/* 70% { content: "Hic"; }
+	80% { content: "atque"; }
+	90% { content: "fuga"; } */
+  }
